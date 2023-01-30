@@ -47,6 +47,7 @@
         <div class="d-flex justify-content-between align-items-center mb-2">
             <h1 class="h1 py-5">Manage Students Info</h1>
             <div class="text-end">
+
                 <a href="/manage-informations-add" class="btn btn-primary btn-sm">Add New</a>
             </div>
         </div>

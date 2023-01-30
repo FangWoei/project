@@ -92,10 +92,10 @@
                 <div class="col-1"></div>
                 <div class="mb-3 col-5">
                     <label for="information-content" class="form-label">Gender</label>
-                    <select class="form-control" id="information-gender" name="gender" value="<?php echo $information['gender']; ?>">
-                        <option value="">Select your Gender</option>
-                        <option  value="male">Male</option>
-                        <option  value="Female">Female</option>
+                    <select class="form-control" id="information-gender" name="gender">
+                    <option value="" >Select your Gender</option>
+                    <option value="male" <?php echo ( $information['gender'] == 'male' ? 'selected' : '' ); ?>>Male</option>
+                    <option value="female" <?php echo ( $information['gender'] == 'female' ? 'selected' : '' ); ?>>Female</option>
                     </select>
                 </div>
             </div>

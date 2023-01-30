@@ -90,7 +90,7 @@
                 <select class="form-control" id="information-gender" name="gender">
                     <option value="">Select your Gender</option>
                     <option  value="male">Male</option>
-                    <option  value="Female">Female</option>
+                    <option  value="female">Female</option>
                 </select>
             </div>
         </div>

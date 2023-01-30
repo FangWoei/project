@@ -50,12 +50,12 @@
       }
       .ten{
         background: url(../img/info-e.jpg);
-        height: 100vh;
+        height: 125vh;
         background-size: cover;
       }
       .eleven{
         background: url(../img/info-a.jpg);
-        height: 100vh;
+        height: 120vh;
         background-size: cover;
       }
     </style>
